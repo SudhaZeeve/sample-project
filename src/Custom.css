@@ -1,0 +1,29 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+span,
+div,
+ul,
+ol,
+li,
+a,
+table,
+tbody,
+tr,
+td {
+	list-style: none;
+	text-decoration: none;
+	outline: none;
+}
