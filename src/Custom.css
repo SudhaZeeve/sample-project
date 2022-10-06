@@ -80,7 +80,7 @@ h6 {
 
 .panel .form-control,
 .modal-body .form-control,.content .form-control{
-	height: 40px;
+	/* height: 40px; */
 	color:#000;
 	font-size: 12px;
 	font-family: 'Conv_Gilroy-regular';

@@ -1,5 +1,7 @@
 import React from "react";
+import SelectTag from "../../common/SelectTag";
 import ProductWiseChart from "./ProductWiseChart";
+import { MonthYearly } from "../StaticData";
 
 const ProductWiseLeads = () => {
     return (
@@ -11,14 +13,7 @@ const ProductWiseLeads = () => {
                             <h5>Product Wise Leads</h5>
                         </div>
                         <div className="col-5">
-                            <select className="form-control custom-textfield height float-right">
-                                <option>July, 2021</option>
-                                <option>June, 2021</option>
-                                <option>May, 2021</option>
-                                <option>April, 2021</option>
-                                <option>March, 2021</option>
-                            </select>
-
+                            <SelectTag Label="" Required optionData={MonthYearly} customClass="custom-textfield ms-auto" />
                         </div>
                     </div>
                 </div>

@@ -1,12 +1,8 @@
-import React, { useState } from "react"
-import InputTag from "../common/InputTag";
+import React from "react"
 import Assignee from "./components/Assignee";
 import DailyActivities from "./components/DailyActivities";
-import ProductWiseChart from "./components/ProductWiseChart";
 import ProductWiseLeads from "./components/ProductWiseLeads";
 import SharedLeadPerf from "./components/SharedLeadPerf";
-import SharedLeadsCharts from "./components/SharedLeadsCharts";
-import SharePeformanceChart from "./components/SharePeformanceChart";
 import StatusSharedLead from "./components/StatusSharedLead";
 import { AssigneeData } from "./StaticData";
 

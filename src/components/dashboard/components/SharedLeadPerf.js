@@ -1,5 +1,7 @@
 import React from "react";
+import SelectTag from "../../common/SelectTag";
 import SharePeformanceChart from "./SharePeformanceChart";
+import { Yearly } from "../StaticData";
 
 const SharedLeadPerf = () => {
     return (
@@ -11,13 +13,7 @@ const SharedLeadPerf = () => {
                 <div className="p-3">
                     <div className="row">
                         <div className="col-md-12">
-                            <select className="form-control custom-textfield height ms-auto">
-                                <option>2021</option>
-                                <option>2020</option>
-                                <option>2019</option>
-                                <option>2018</option>
-                                <option>2017</option>
-                            </select>
+                            <SelectTag Label="" Required optionData={Yearly} customClass="custom-textfield ms-auto" />
                         </div>
                         <div className="col-md-12">
                             <SharePeformanceChart />

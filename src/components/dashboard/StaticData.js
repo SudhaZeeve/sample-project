@@ -18,3 +18,57 @@ export const AssigneeData = [
         Gmail:"rajesh@gmail.com"
     },
 ];
+
+export const Montly = [
+    {
+        OptionValue:"8 July, 2021",
+    },
+    {
+        OptionValue:"8 June, 2021",
+    },
+    {
+        OptionValue:"8 May, 2021",
+    },
+    {
+        OptionValue:"8 April, 2021",
+    },
+    {
+        OptionValue:"8 March, 2021",
+    },
+];
+
+export const Yearly = [
+    {
+        OptionValue:"2021",
+    },
+    {
+        OptionValue:"2020",
+    },
+    {
+        OptionValue:"2019",
+    },
+    {
+        OptionValue:"2018",
+    },
+    {
+        OptionValue:"2017",
+    },
+];
+
+export const MonthYearly = [
+    {
+        OptionValue:"July, 2021",
+    },
+    {
+        OptionValue:"June, 2021",
+    },
+    {
+        OptionValue:"May, 2021",
+    },
+    {
+        OptionValue:"April, 2021",
+    },
+    {
+        OptionValue:"March, 2021",
+    },
+];
