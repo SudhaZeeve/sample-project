@@ -1,9 +1,11 @@
 import React from "react";
+import SearchFilter from "./components/SearchFilter";
+
 
 const CommissionReport = () =>{
     return(
         <>
-            <h6>Commission Report</h6>
+            <SearchFilter />
         </>
     );
 }

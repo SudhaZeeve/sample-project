@@ -563,17 +563,27 @@ select.custom-textfield {
     }
 }
 
-.table th, .table td{
-	font-size:12px;
-}
-.table th{
+.table th	{
 	font-family: 'Conv_Gilroy-regular';
 	color:#ea652b;
 }
 .custom-dropdown{
-	padding: 10px 15px;
-min-width: 220px;
-font-size: 15px;
+	padding: 10px 10px;
+	min-width: 220px;
+	font-size: 13px;
+	/* top:2px !important; */
+}
 
-top:5px !important;
+.panel .table td .name {
+	font-size: 14px;
+	font-family: 'Conv_Gilroy-regular';
+}
+.table .dropdown-menu .dropdown-item {
+	font-size: 13px;
+}
+.table th, .table td{
+	font-size:12px;
+}
+.table>:not(caption)>*>*{
+	padding: .7rem .5rem;
 }

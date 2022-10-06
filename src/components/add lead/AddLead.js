@@ -3,7 +3,7 @@ import React from "react";
 const AddLead = () =>{
     return(
         <>
-        <h6>AddLead</h6>
+            <h6>AddLead</h6>
         </>
     );
 }
