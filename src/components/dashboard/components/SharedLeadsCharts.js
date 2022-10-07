@@ -1,14 +1,3 @@
-// import React from "react";
-
-// const SharedLeadsCharts = () =>{
-//     return(
-//         <>
-//             <h1>Shared Leads Charts</h1>
-//         </>
-//     );
-// }
-// export default SharedLeadsCharts;
-
 import React, { PureComponent } from 'react';
 import { PieChart, Pie, Sector, ResponsiveContainer } from 'recharts';
 

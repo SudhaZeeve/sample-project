@@ -20,7 +20,7 @@ const Login = () => {
                         <div className="col-md-6 mx-auto">
                             <div className="user-bg col-8 mx-auto">
                                 <div className="logo text-center mb-5">
-                                    <img src={Logo} width="130" />
+                                    <img src={Logo} width="130" alt="logo" />
                                 </div>
                                 <h4 className="text-center mb-5">Welcome to GroPlus Portal</h4>
                                 <form>

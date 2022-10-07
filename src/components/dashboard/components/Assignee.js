@@ -15,8 +15,7 @@ const Assignee = ({AssigneeData}) => {
                                     <tr key={index}>
                                         <td><span className="name">{key.Name}</span><br /><small>{key.Num}</small></td>
                                         <td align="center"><span className="text-danger font-bold">{key.Leads} Leads</span></td>
-                                        <td align="right"><small>{key.Gmail}<br /><a className="text-success"
-                                            href="">Send mail</a></small></td>
+                                        <td align="right"><small>{key.Gmail}<br /><a className="text-success">Send mail</a></small></td>
                                     </tr>
                                 );
                             })}
