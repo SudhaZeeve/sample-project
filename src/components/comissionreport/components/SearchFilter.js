@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import BrowserModal from "../../common/BrowserModal";
 import InputTag from "../../common/InputTag";
 import Modal from "../../common/Modal";
 import SelectTag from "../../common/SelectTag";
@@ -49,18 +50,7 @@ const SearchFilter = () => {
 
             </div>
             {show && <Modal ModalTitle="Document Upload" btnName="Submit" btncancel="Close" show={show} setShow={setShow} modalcustom="modal-dialog-centered" ContentID="examplemodal">
-                <div className="row my-3">
-                    <div className="col-md-9">
-                        <InputTag Label="" Type="text" Placeholder="Search File" Value={change.search} onChangeValue={handleChange} name="search" classcol=""  />
-                    </div>
-                    <div className="col-md-3 d-flex align-items-center">
-                        <div className="custom-file-uploader">
-                            <input type="file" className="custom-file-input" />
-                            <button type="button" className="btn btn-custom ">Browse</button>
-                        </div>
-
-                    </div>
-                </div>
+                <BrowserModal change={change} setChange={setChange} handleChange={handleChange} />
                 <TextareaTag Label="Comment" Rowcount="3"  />
             </Modal>}
         </>

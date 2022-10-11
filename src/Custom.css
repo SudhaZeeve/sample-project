@@ -87,7 +87,7 @@ h6 {
 .panel .form-control,
 .modal-body .form-control,
 .content .form-control {
-	/* height: 40px; */
+	height: 40px;
 	color: #000;
 	font-size: 12px;
 	font-family: 'Conv_Gilroy-regular';
@@ -671,4 +671,8 @@ tt {
 	background: transparent;
 	color: #ea652b !important;
 	border-bottom: #ea652b solid 2px;
+}
+.addcard h5{
+	color: #ea652b;
+	font-size: 16px;
 }
